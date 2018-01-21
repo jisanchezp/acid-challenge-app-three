@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  namespace :rest do
-    get 'sessions/login'
+  namespace :rest, defaults: {format: 'json'} do
+    post 'login/', to: 'sessions#login'
   end
 end
