@@ -10,6 +10,6 @@ class Rest::SessionsController < ApplicationController
       }
     )
 
-    render json: response
+    render status: response.code, json: { message: response["message"] }
   end
 end
