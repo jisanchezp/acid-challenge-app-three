@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::API
-  SERVER_HOST = (Rails.env.development? or Rails.env.test?) ?  "http://localhost:3001" : "https://acid-challenge-jisanchez.herokuapp.com"
+  SERVER_HOST = Figaro.env.server_host
 end
