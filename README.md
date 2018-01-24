@@ -1,4 +1,4 @@
-# Acid Challenge App One
+# Acid Challenge App Three
 
 This application is just REST API proxy (no frontend) from a whole (basic) system.
 The complete system has a client/server architecture, interconnected by this REST API proxy.
@@ -9,7 +9,7 @@ plus a message).
 **IMPORTANT:**
 
 The followings steps, with the exception of **Prerequisites** and
-**Running the tests**, are just for **Acid Challenge App One**, for the other
+**Running the tests**, are just for **Acid Challenge App Three**, for the other
 applications you must follow their own steps specified in their Github pages.
 
 ### Prerequisites
@@ -54,7 +54,7 @@ After this, copy/paste the following to the recently created **config/applicatio
 development:
   server_host: 'http://localhost:3001' # Choose any port you want, but it must
                                     # be an unused port and the same one used in
-                                    # the acid-challenge-app-three application
+                                    # the acid-challenge-app-two application
 
 production:
   server_host: 'enter-here-you-heroku-app-two-host-refer-to-deployment'
@@ -72,7 +72,7 @@ $ rails s -p 3002
 
 To run automated tests follow the following steps:
 
-Pre-requisites: You should have followed the "Installing" steps for all the three applications first.
+Pre-requisites: You should have followed the "Installing" steps for all three applications first.
 
 1) Step into the main folder and run a command console, and type:
 
