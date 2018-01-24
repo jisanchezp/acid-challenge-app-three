@@ -6,7 +6,8 @@ class Rest::SessionsController < ApplicationController
         image: params[:image]
       }.to_json,
       :headers => {
-        'Content-Type' => 'application/json'
+        'Content-Type' => 'application/json',
+        'User-Agent' => request.headers["User-Agent"]
       }
     )
 
