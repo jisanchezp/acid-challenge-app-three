@@ -55,6 +55,8 @@ development:
   server_host: 'http://localhost:3001' # Choose any port you want, but it must
                                     # be an unused port and the same one used in
                                     # the acid-challenge-app-two application
+test:
+  server_host: 'http://localhost:3001'
 
 production:
   server_host: 'enter-here-you-heroku-app-two-host-refer-to-deployment'
