@@ -12,9 +12,12 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'webmock'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faker'
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
 end
 
 group :development do
